@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/emp")
 public class EmployeeController {
-    List<Employee> list = Arrays.asList(new Employee(1 , "ahmed", 3000),new Employee(2 , "ali", 5000));
+    List<Employee> list = Arrays.asList(new Employee(1 , "ahmed", 3000),new Employee(2 , "ali", 5000),new Employee(3 , "aaa", 6000));
 
 
     @GetMapping("")
